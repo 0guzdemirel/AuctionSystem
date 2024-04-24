@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GuiForm">
+  <grid id="27dc6" binding="auctionPanel" layout-manager="GridLayoutManager" row-count="7" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="1001" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="33414" class="javax.swing.JList" binding="auctionList">
+        <constraints>
+          <grid row="1" column="0" row-span="3" col-span="2" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <selectionBackground color="-7894902"/>
+        </properties>
+      </component>
+      <component id="22eb6" class="javax.swing.JTextField" binding="createdAuctionNameTextField">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bb499" class="javax.swing.JButton" binding="createAuctionButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="1"/>
+          <text value="Start Auction"/>
+        </properties>
+      </component>
+      <component id="8b868" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="1"/>
+          <text value="Auction Name"/>
+        </properties>
+      </component>
+      <component id="b5442" class="javax.swing.JTextField" binding="bidderNameTextField">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+        </properties>
+      </component>
+      <component id="927e" class="javax.swing.JTextField" binding="bidTextField">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+        </properties>
+      </component>
+      <component id="8aaa3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="1"/>
+          <text value="Your Name"/>
+        </properties>
+      </component>
+      <component id="54c79" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="1"/>
+          <text value="Your Bid ($)"/>
+        </properties>
+      </component>
+      <component id="64446" class="javax.swing.JButton" binding="bidButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="1"/>
+          <text value="Bid"/>
+        </properties>
+      </component>
+      <component id="473a3" class="javax.swing.JList" binding="bidderList">
+        <constraints>
+          <grid row="1" column="2" row-span="3" col-span="2" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+          <model/>
+          <selectionBackground color="-7894902"/>
+        </properties>
+      </component>
+      <component id="de99e" class="javax.swing.JTextArea" binding="auctionStatusTextArea">
+        <constraints>
+          <grid row="0" column="4" row-span="2" col-span="1" vsize-policy="6" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1118482"/>
+          <editable value="false"/>
+          <font name="Courier New" size="28" style="1"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <text value="There Is No Auction "/>
+        </properties>
+      </component>
+      <component id="9d388" class="javax.swing.JTextArea" binding="countdownTextArea">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1118482"/>
+          <editable value="false"/>
+          <font name="Courier New" size="72" style="1"/>
+          <lineWrap value="false"/>
+          <text value="00:00"/>
+        </properties>
+      </component>
+      <component id="c9fce" class="javax.swing.JTextArea" binding="latestBidTextArea">
+        <constraints>
+          <grid row="3" column="4" row-span="4" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.5"/>
+          <alignmentY value="0.5"/>
+          <background color="-1118482"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font name="Courier New" size="20" style="1"/>
+          <text value="CURRENT BID&#10;Name: ****** ******&#10;Bid: $ ***"/>
+        </properties>
+      </component>
+      <component id="72be9" class="javax.swing.JLabel" binding="selectedAuctionTitleLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20" style="1"/>
+          <text value="No Auction Selected"/>
+        </properties>
+      </component>
+      <component id="dd7e2" class="javax.swing.JTextField" binding="initialPriceTextField">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="0"/>
+        </properties>
+      </component>
+      <component id="885e0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="1"/>
+          <text value="Initial Price ($)"/>
+        </properties>
+      </component>
+      <component id="140dd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20" style="1"/>
+          <text value="Auctions"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
